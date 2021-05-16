@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Ansonika">
+  <title>JEM</title>	
+	
+</head>
+
+<body class="fixed-nav sticky-footer" id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top" id="mainNav">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="My profile">
+			<a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseProfile" data-parent="#exampleAccordion">
+				<div class="header_box version_2">
+			  <h2><i class="fa fa-user"></i>Welcome to JEM!</h2>
+			</div></a>
+		  </li>
+
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="My profile">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseProfile" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-wrench"></i>
+            <span class="nav-link-text">My profile</span>
+          </a>
+        </li>
+	</ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+        
+          <div class="dropdown-menu" aria-labelledby="alertsDropdown">
+            <span class="nav-link-text">New Alerts</span>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 mr-lg-2">
+            <div class="input-group">
+              <input class="form-control search-top" type="text" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+      
+      </ul>
+    </div>
+  </nav>
+  <!-- /Navigation-->
+  <div class="content-wrapper">
+    <div class="container-fluid">
+
+		<div class="box_general padding_bottom">
+			<div class="header_box version_2">
+				<h2><i class="fa fa-user"></i>Profile details</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="form-group">
+					<label>Your photo</label>
+					<form action="/upload" class="dropzone needsclick dz-clickable" id="demo-upload">
+						<div class="dz-message needsclick">
+						  <button type="button" class="dz-button">Drop files here or click to upload.</button><br>
+						  
+						</div>
+					  </form>
+						
+				    </div>
+
+			
+					<!-- /row-->
+					
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>  Name                   </label>
+								<input type="text" class="form-control" placeholder="Your telephone number">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>  Last Name                   </label>
+								<input type="text" class="form-control" placeholder="Your telephone number">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>  Telephone                    </label>
+								<input type="text" class="form-control" placeholder="Your telephone number">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Email           </label>
+								<input type="email" class="form-control" placeholder="Your email">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label>Position             </label>
+								<input type="email" class="form-control" placeholder="Your email">
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Number of merit points              </label>
+									<input type="email" class="form-control" placeholder="Your email">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /row-->
+				</div>
+			</div>
+		</div>
+		<!-- /box_general-->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="box_general padding_bottom">
+					<div class="header_box version_2">
+						<h2><i class="fa fa-lock"></i>Change password           </h2>
+					</div>
+					<div class="form-group">
+						<label>Old password           </label>
+						<input class="form-control" type="password">
+					</div>
+					<div class="form-group">
+						<label>New password              </label>
+						<input class="form-control" type="password">
+					</div>
+					<div class="form-group">
+						<label>Confirm new password</label>
+						<input class="form-control" type="password">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				
+			</div>
+		</div>
+		<!-- /row-->
+		<p><a href="#0" class="btn_1 medium">Save</a></p>
+	  </div>
+	  <!-- /.container-fluid-->
+   	</div>
+    <!-- /.container-wrapper-->
+    <footer class="sticky-footer">
+      <div class="container">
+        
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+         
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+	
+</body>
+</html>
